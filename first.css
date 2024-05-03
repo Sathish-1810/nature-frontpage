@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+width: 100%;
+height: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    background-image: url("https://img.freepik.com/free-photo/people-walking-green-grass-field-daytime_395237-36.jpg?t=st=1714367340~exp=1714370940~hmac=6dee4f50ec8366e71c4514af61aa0db9eccb59b186a16cf35786420d747d370e&w=900");
+    background-size:cover;
+}
+#overlay{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(8, 8, 8, 0.653);
+}
+#overlay h1{
+    position: absolute;
+    top: 40%;
+    left:35%;
+    transform: translate(-50% -50%);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:white;
+    font-size: 50px;
+    font-weight: 10px;
+    -webkit-transform: translate(-50% -50%);
+    -moz-transform: translate(-50% -50%);
+    -ms-transform: translate(-50% -50%);
+    -o-transform: translate(-50% -50%);
+}
+#overlay p{
+    position: absolute;
+    top: 50%;
+    left:34%;
+    transform: translate(-50% -50%);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:rgb(255, 255, 255);
+    letter-spacing: 1px;
+
+}
+#line {
+    position: absolute;
+    top: 55%;
+    left:33%;
+    transform: translate(-50% -50%);
+    width:35%;
+    height: 2px;
+    background-color: azure;
+    -webkit-transform: translate(-50% -50%);
+    -moz-transform: translate(-50% -50%);
+    -ms-transform: translate(-50% -50%);
+    -o-transform: translate(-50% -50%);
+}
+button{
+    position: absolute;
+    top:60%;
+    left:45%;
+    transform:translate(-50% -50%);
+    -webkit-transform:translate(-50% -50%);
+    -moz-transform:translate(-50% -50%);
+    -ms-transform:translate(-50% -50%);
+    -o-transform:translate(-50% -50%);
+    width:9%;
+    height: 25px;
+    background: transparent;
+    color:rgb(0, 0, 0);
+    letter-spacing: 2px;
+    border: 1px solid white;
+    font-weight: bold;
+}
+button:hover{
+    background-color: aliceblue;
+   
+}
